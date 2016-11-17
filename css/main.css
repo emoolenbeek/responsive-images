@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Indie Flower', cursive;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+picture,
+img {
+    max-width: 90%;
+}
+
+footer{
+    padding-top: 2vh;    
+}
+
+ul{
+    padding-top: 3vh;
+}
+
+/* two column layout */
+li{
+    width: 48%;
+    padding-bottom: 3vh;
+}
+
+
+@media screen and (max-width:600px) {
+    /*  one column  */
+    li{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    /*  four column  */
+    li {
+        width: 24.5%;
+    }
+}
